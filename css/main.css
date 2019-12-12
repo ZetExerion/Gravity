@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6{
 h2{
     font-size: 38px;
 }
+h3 {
+    font-size: 22px;
+}
 .be-static{
     position: static;
 }
@@ -183,4 +186,123 @@ h2{
     margin-left: -32px;
     margin-top: -32px;
     cursor: pointer;
+}
+.collage{
+    padding-top: 219px;
+    width: 50%;
+    height: 540px;
+    background: url('../img/img6.jpg') no-repeat left top/ 80% 80%;
+    position: absolute;
+    left: 0;
+}
+.collage img {
+    display: block;
+    width: 350px;
+    height: 453px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: 30px 80px 130px rgba(0,0,0,0.25);
+}
+.result {
+    padding-top: 219px;
+}
+.easy {
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.easy__title {
+    margin-bottom: 30px;
+}
+.easy__text {
+    margin-bottom: 52px;
+}
+.easy__point {
+    padding-left: 83px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.easy__point-first {
+    background: url('../img/100icon.svg') no-repeat left center;
+}
+.easy__point-second {
+    background: url('../img/iconbag.svg') no-repeat left center;
+}
+.works {
+    padding-top: 283px;
+}
+.works-tabs {
+    margin-left: 60px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin-top: 70px;
+}
+.work-tabs__item a{
+    text-decoration: none;
+    color: #8D8D8D;
+}
+.work-tabs__item.active a{
+    text-decoration: none;
+    color:#1434E1;
+}
+.works-wrap {
+    flex-wrap: wrap;
+    margin-top: 108px;
+}
+.works-wrap__item {
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+}
+.works-wrap__item img {
+    transition: all 1s ease;
+    display: block;
+}
+.works-wrap__item:hover img {
+    box-shadow: -30px 80px 200px rgba(0,0,0,0.25);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.works-wrap__item:hover:after {
+    content: '';
+    display: block;
+    background: url('../img/play.svg');
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+}
+.tabs__content {
+    display: none !important;
+}
+.tabs__content.active {
+    display: flex !important;
+}
+.testimonials {
+    padding-top: 248px;
+}
+.contributor {
+    margin-top: 121px;
+}
+.contributor__title {
+    margin-bottom: 10px;
+}
+.contributor__desc {
+
+}
+.cont-photo {
+    display: block;
 }
